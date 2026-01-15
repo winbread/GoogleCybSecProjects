@@ -31,24 +31,26 @@ Use the APT package manager to install Suricata by running `sudo apt install sur
 <img src="https://github.com/winbread/Install-software-in-a-Linux-distribution/blob/main/sudoaptinstall.png?raw=true"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lets verify we have successfully installed Suricata <br/>When Suricata is installed, version and usage information is listed:<br/>
+<img src="https://github.com/winbread/Install-software-in-a-Linux-distribution/blob/main/verifysuricatainstall.png?raw=true"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Uninstall Suricata by running `sudo remove suricata`.: <br/>
+ Note: running sudo is important, only users with elevated permissions (sudo users) can install or uninstall applications<br/>
+<img src="https://github.com/winbread/Install-software-in-a-Linux-distribution/blob/main/removesuricata.png?raw=true" />   
+ <br/>  
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Verify successfull uninstallation of Suricata:  <br/>
+<img src="https://github.com/winbread/Install-software-in-a-Linux-distribution/blob/main/removesuricataverify.png?raw=true"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Install tcpdump running sudo install tcpdump  <br/>
+<img src="https://github.com/winbread/Install-software-in-a-Linux-distribution/blob/main/installtcpdump.png?raw=true"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Verify installation via apt list --installed  <br/> Look through the alphabetical list of installed applications until you find tcpdump. You will also notice Suricata does not appear on this list.  <br/>
+<img src="https://github.com/winbread/Install-software-in-a-Linux-distribution/blob/main/aptlistinstall.png?raw=true"/>
 </p>
 
 <!--
