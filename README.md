@@ -21,8 +21,8 @@ Project consists of installing and uninstalling applications using a packet mana
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+First lets verify we have apt installed by entering apt: <br/>
+<img src="https://github.com/winbread/Install-software-in-a-Linux-distribution/blob/main/Screenshot%202026-01-15%20112603.png?raw=true"/>
 <br />
 <br />
 Select the disk:  <br/>
